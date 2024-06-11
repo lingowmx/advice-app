@@ -55,16 +55,21 @@ main {
     justify-content: center;
     position: absolute;
     bottom: -40px;
+    &:hover{
+        transition: 0.1s;
+        cursor: pointer;
+        box-shadow: 0 0 10px 3px $Neon-Green;
+    }
     button {
       background: none;
       border: none;
 
-      :hover {
+      &:hover {
         cursor: pointer;
-        transform: scale(1.3);
+        transform: scale(1.5);
       }
       .image-rotation{
-        transition: transform 0.5s ease;
+        transition: transform 1.3s ease;
       }
     }
   }

@@ -45,16 +45,21 @@ main .icon-dice-container {
   position: absolute;
   bottom: -40px;
 }
+main .icon-dice-container:hover {
+  transition: 0.1s;
+  cursor: pointer;
+  box-shadow: 0 0 10px 3px hsl(150, 100%, 66%);
+}
 main .icon-dice-container button {
   background: none;
   border: none;
 }
-main .icon-dice-container button :hover {
+main .icon-dice-container button:hover {
   cursor: pointer;
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 main .icon-dice-container button .image-rotation {
-  transition: transform 0.5s ease;
+  transition: transform 1.3s ease;
 }
 
 .rotation {
