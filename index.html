@@ -19,6 +19,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        margin-top: 80px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -28,9 +29,13 @@
   </head>
   <body>
     <main>
-      <div class="advice" id="adviceNumber">Advice # <span id="adviceNumberId"></span></div>
-      <section class="advice-text" id="adviceText">
-        "Este es un advice demo que se aplicara automaticamente con un API"
+      <div class="advice" id="adviceNumber">
+        Advice # <span id="adviceNumberId"></span>
+      </div>
+      <section class="advice-text-container" >
+        <p id="adviceText">
+          "Click the dice, get an advice"
+        </p>
       </section>
       <picture>
         <source
@@ -44,7 +49,9 @@
         <img src="./images/pattern-divider-mobile.svg" alt="pattern-divider" />
       </picture>
       <div class="icon-dice-container">
-        <img src="./images/icon-dice.svg" alt="icon-dice" />
+        <button id="diceButton">
+          <img  class="image-rotation" src="./images/icon-dice.svg" alt="icon-dice" />
+        </button>
       </div>
     </main>
 
