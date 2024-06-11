@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ManRope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  width: 340px;
+  height: 320px;
+  padding: 16px 12px 20px 12px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+main .advice {
+  color: hsl(150, 100%, 66%);
+  font-size: 20px;
+  font-weight: 400;
+}
+main .advice-text {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+main picture {
+  margin-bottom: 36px;
+}
+main .icon-dice-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -40px;
+}
+
+/*# sourceMappingURL=style.css.map */

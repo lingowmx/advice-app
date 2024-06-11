@@ -1,0 +1,58 @@
+//Primary Colors
+$Light-Cyan: hsl(193, 38%, 86%);
+$Neon-Green: hsl(150, 100%, 66%);
+
+//Neutral Colors
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Blue: hsl(218, 23%, 16%);
+
+//Fonts
+$Font-size-quote: 28px;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ManRope", sans-serif;
+  background-color: $Dark-Blue;
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  width: 340px;
+  height: 320px;
+  padding: 16px 12px 20px 12px;
+  background-color: $Dark-Grayish-Blue;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  .advice {
+    color: $Neon-Green;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .advice-text{
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    color: $Light-Cyan;
+    font-size: $Font-size-quote;
+  }
+  picture{
+    margin-bottom: 36px;
+  }
+  .icon-dice-container{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: $Neon-Green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -40px;
+  }
+}
